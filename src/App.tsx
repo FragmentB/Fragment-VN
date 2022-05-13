@@ -9,7 +9,6 @@ import SaveScreen from 'components/save-screen/SavingScreen';
 
 function App() {
   return (
-    <BrowserRouter>
       <Routes>
         <Route path='/' element={<TitleScreen />} />
         <Route path='option' element={<OptionScreen />} />
@@ -19,7 +18,6 @@ function App() {
         <Route path='load' element={<LoadingScreen/>} />
         <Route path='*' element={<TitleScreen />} />
       </Routes>
-    </BrowserRouter>
   );
 }
 
