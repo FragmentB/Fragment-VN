@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Fragment-VN/static/css/main.0acba29e.css",
-    "main.js": "/Fragment-VN/static/js/main.ffd99fb3.js",
+    "main.js": "/Fragment-VN/static/js/main.0bf1ecb9.js",
     "static/js/787.1f743f49.chunk.js": "/Fragment-VN/static/js/787.1f743f49.chunk.js",
     "static/media/TitleScreenImage.png": "/Fragment-VN/static/media/TitleScreenImage.65be5218b05fdc4c1fca.png",
     "static/media/OptionBG.png": "/Fragment-VN/static/media/OptionBG.642d80f03fbea4c87394.png",
@@ -11,11 +11,11 @@
     "static/media/TitleCard.png": "/Fragment-VN/static/media/TitleCard.920503e25421066fb7c5.png",
     "index.html": "/Fragment-VN/index.html",
     "main.0acba29e.css.map": "/Fragment-VN/static/css/main.0acba29e.css.map",
-    "main.ffd99fb3.js.map": "/Fragment-VN/static/js/main.ffd99fb3.js.map",
+    "main.0bf1ecb9.js.map": "/Fragment-VN/static/js/main.0bf1ecb9.js.map",
     "787.1f743f49.chunk.js.map": "/Fragment-VN/static/js/787.1f743f49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0acba29e.css",
-    "static/js/main.ffd99fb3.js"
+    "static/js/main.0bf1ecb9.js"
   ]
 }
