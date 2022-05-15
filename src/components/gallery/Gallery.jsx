@@ -14,10 +14,14 @@ const Gallery = (props) => (
                         try{
                              //TODO: Hide character names for locked people
                             const thumb = require(`../../images/Characters/${character}/Portrait.png`);
+                            const activeThumb = require(`../../images/Characters/${character}/PortraitActive.png`);
+                            const namePlate = require(`../../images/Characters/${character}/NamePlate.png`);
                             return(
                             <div className="galleryItem" key={character}>
-                                <img src={thumb} alt={character} height={90} width={90} />
-                                <span className="characterName">{character}</span>
+                                <img className="thumbnail" src={thumb} alt={character}
+                                onMouseOver={e => e.currentTarget.src = activeThumb}
+                                onMouseOut={e => e.currentTarget.src = thumb}/>
+                                <img src={namePlate} className="namePlate" alt={character} />
                             </div>
                             )
                         }

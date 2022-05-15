@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import TitleScreen from 'components/title-screen/TitleScreen';
 import OptionScreen from 'components/option-screen/OptionScreen';
 import Gallery from 'components/gallery/Gallery';
