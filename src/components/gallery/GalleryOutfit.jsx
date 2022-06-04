@@ -23,7 +23,7 @@ const GalleryOutfit = (props) =>{
         }
 
         return(
-            <div>
+            <div className="characterSidebarFooter">
                 <img src={images[currentOutfit]} className="outfit" alt={charName} />
                 <div className="changeOutfit" onClick={()=>changeOutfit()}>Change Outfit</div>
                 <div> Current Outfit {currentOutfit+1} / {numOutfits}</div>
