@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Fragment-VN/static/css/main.a79920d0.css",
-    "main.js": "/Fragment-VN/static/js/main.98d48bc2.js",
+    "main.css": "/Fragment-VN/static/css/main.b3e82dc1.css",
+    "main.js": "/Fragment-VN/static/js/main.9acc756e.js",
     "static/js/787.1f743f49.chunk.js": "/Fragment-VN/static/js/787.1f743f49.chunk.js",
     "static/media/Lynnbandagetease.png": "/Fragment-VN/static/media/Lynnbandagetease.90966f00e9451bc7050a.png",
     "static/media/TitleScreenImage.png": "/Fragment-VN/static/media/TitleScreenImage.65be5218b05fdc4c1fca.png",
@@ -23,12 +23,12 @@
     "static/media/TitleCard.png": "/Fragment-VN/static/media/TitleCard.920503e25421066fb7c5.png",
     "static/media/NamePlate.png": "/Fragment-VN/static/media/NamePlate.f6e8cf9a6b7165188231.png",
     "index.html": "/Fragment-VN/index.html",
-    "main.a79920d0.css.map": "/Fragment-VN/static/css/main.a79920d0.css.map",
-    "main.98d48bc2.js.map": "/Fragment-VN/static/js/main.98d48bc2.js.map",
+    "main.b3e82dc1.css.map": "/Fragment-VN/static/css/main.b3e82dc1.css.map",
+    "main.9acc756e.js.map": "/Fragment-VN/static/js/main.9acc756e.js.map",
     "787.1f743f49.chunk.js.map": "/Fragment-VN/static/js/787.1f743f49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a79920d0.css",
-    "static/js/main.98d48bc2.js"
+    "static/css/main.b3e82dc1.css",
+    "static/js/main.9acc756e.js"
   ]
 }
