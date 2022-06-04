@@ -51,3 +51,30 @@
     text-align: center;
     font-weight: bolder;
 }
+
+.outfit{
+    height: 650px;
+    width: 300px;
+}
+
+.characterSidebar{
+    display: grid;
+    justify-items: center;
+    width: 300px;
+    text-align: center;
+}
+
+.changeOutfit{
+    font-weight: 600;
+    width: 200px;
+    margin-left: 50px;
+    background: #666666;
+    font-size: large;
+    color: white;
+    border-radius: 8px;
+}
+
+.characterGallery{
+    width: 800px;
+    height: 878px;;
+}
