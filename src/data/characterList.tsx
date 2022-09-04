@@ -4,7 +4,7 @@ export const characterList = {characters: [
     {name:"Rishita", outfits:[], scenes:0},
     {name:"Saif", outfits:[], scenes:0},
     {name:"Kernesse", outfits:[], scenes:0},
-    {name:"Lynn", outfits:["Scout Standard","Personal Bodyguard","Injured"], scenes:7},
+    {name:"Lynn", outfits:["Casual Outfit", "Scout Standard", "Injured", "Boxers", "Personal Bodyguard"], scenes:7},
     {name:"Mika", outfits:[], scenes:0},
     {name:"Leena", outfits:[], scenes:0},
     {name:"Valerie", outfits:[], scenes:0},
