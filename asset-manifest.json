@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Fragment-VN/static/css/main.bda5c50a.css",
+    "main.css": "/Fragment-VN/static/css/main.6e7d5632.css",
     "main.js": "/Fragment-VN/static/js/main.7e005b33.js",
     "static/js/787.1f743f49.chunk.js": "/Fragment-VN/static/js/787.1f743f49.chunk.js",
     "static/media/0.png": "/Fragment-VN/static/media/0.384d2f7cb57de9c8019f.png",
@@ -90,12 +90,12 @@
     "static/media/2_of_hearts.png": "/Fragment-VN/static/media/2_of_hearts.c2cb81fb3d816683e15a.png",
     "static/media/2_of_diamonds.png": "/Fragment-VN/static/media/2_of_diamonds.a51b192d2f2ba1fc1d53.png",
     "index.html": "/Fragment-VN/index.html",
-    "main.bda5c50a.css.map": "/Fragment-VN/static/css/main.bda5c50a.css.map",
+    "main.6e7d5632.css.map": "/Fragment-VN/static/css/main.6e7d5632.css.map",
     "main.7e005b33.js.map": "/Fragment-VN/static/js/main.7e005b33.js.map",
     "787.1f743f49.chunk.js.map": "/Fragment-VN/static/js/787.1f743f49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bda5c50a.css",
+    "static/css/main.6e7d5632.css",
     "static/js/main.7e005b33.js"
   ]
 }
