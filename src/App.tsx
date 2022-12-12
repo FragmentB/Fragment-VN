@@ -6,6 +6,7 @@ import Gallery from 'components/gallery/Gallery';
 import LoadingScreen from 'components/loading-screen/LoadingScreen';
 import GameScreen from 'components/game-screen/GameScreen';
 import SaveScreen from 'components/save-screen/SavingScreen';
+import Blackjack from 'components/blackjack';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='gallery' element={<Gallery />} />
         <Route path='save' element={<SaveScreen />} />
         <Route path='load' element={<LoadingScreen/>} />
+        <Route path='blackjack' element={<Blackjack/>} />
         <Route path='*' element={<TitleScreen />} />
       </Routes>
   );

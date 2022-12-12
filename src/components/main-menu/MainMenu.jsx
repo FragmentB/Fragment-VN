@@ -4,11 +4,12 @@ import './MainMenu.scss'
 
 const menuList = [
     {path:'/', display: 'Title Screen' },
-    {path:'/game', display: 'Start Game' },
-    {path:'/save', display: 'Save Game' },
-    {path:'/load', display: 'Load Game' },
+//    {path:'/game', display: 'Start Game' },
+//    {path:'/save', display: 'Save Game' },
+//    {path:'/load', display: 'Load Game' },
     {path:'/option', display: 'Options' },
-    {path:'/gallery', display: 'Gallery' },
+    {path:'/gallery', display: 'Gallery Demo' },
+    {path:'/blackjack', display: 'Blackjack'}
 ]
 
 function MainMenu() {
@@ -22,7 +23,11 @@ function MainMenu() {
     
     return (
         <div className="menuBar">
+            <span>
+                <a className="menuLink" href="https://twitter.com/SourcapStudio" target="_blank" rel="noreferrer">Coder</a>
+            </span>
             {
+                
                 menuList.map((link)=>
                     !iscurrentURL(link.path)? 
                         <span key={link.path}>
@@ -31,7 +36,10 @@ function MainMenu() {
                     :null
                 )
             }
-        </div>
+            <span>
+                <a className="menuLink" href="https://twitter.com/PurusagiP" target="_blank" rel="noreferrer">Artist</a>
+            </span>
+       </div>
     );
 }
 

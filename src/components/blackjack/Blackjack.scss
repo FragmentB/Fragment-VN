@@ -1,0 +1,203 @@
+.blackjackPage, .gameOver{
+    display: flex;
+    justify-content: center;    
+    background-color: #154734;
+    color: white;
+}
+
+.blackjackTitleText{
+    position: absolute;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    background: lightgray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.dealerButton{
+    padding: 5px;
+    background: black;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.blackjackDealers{
+    position: absolute;
+    margin-top: 540px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blackjackGreeting{
+    position: absolute;
+    margin-top: 300px;
+    background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: larger;
+    font-weight: 400;
+    width: 260px;
+}
+
+.blackjackTitleImage{
+        height: 700px;
+        position: relative;
+        object-fit: contain;
+        margin-top: 100px;
+}
+
+.gameOverOverlay{
+    margin-top: 700px;
+    position: absolute;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 
+    2px 2px #666,
+}
+
+.gameOverImage{
+    height: 800px;
+}
+
+.dealerPanel{
+    display:flex;
+}
+
+.dealerPic{
+    height: 800px;
+    width: 400px;
+    object-fit: contain;
+    border-left: 5px solid #eee;
+    border-right: 5px solid #eee;
+}
+
+.blackjackPanel, .deckPanel{ 
+    padding: 5px;
+}
+
+.dealerInfo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: x-large;    
+}
+
+.card{
+    object-fit: cover;
+    height: 145px;
+    width: 100px;
+    border: 1px solid black;
+    box-shadow: 
+        1px 1px #000,
+}
+
+.playerArea, .dealerArea{
+    display: flex;
+    padding:5px;
+    justify-content: center;
+}
+
+.playerValue{
+    font-size: x-large;
+    text-align: center;
+}
+
+.deck{
+    box-shadow: 
+        1px 1px #eee,
+        2px 2px #666,
+        3px 3px #eee, 
+        4px 4px #000;
+}
+
+.gameOverButtons{
+    justify-content: space-between;
+    display: flex;
+}
+
+.blackjackButton{
+    padding: 4px;
+    background: #666666;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+    vertical-align: middle;
+    font-weight: normal;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cashDispay{
+    align-items: center;
+    font-weight: bolder;
+    font-size: xx-large;       
+}
+
+.playerOptions{
+    display: inline-flex;
+    padding: 4px;
+}
+
+.playerOptions button{
+    padding:2px;
+    margin: 5px;
+    font-size: xxx-large;
+}
+
+.speechBubble{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: .5%;
+    font-size: xx-large;
+    max-width: 150px;
+    font-weight: 600;
+}
+
+.speechText{
+    color: black;
+    background: white;
+    border-radius: 6px;
+    padding: 4px;
+    max-width: 170px;
+    min-height: 80px;
+    border: 2px black solid;
+    overflow-wrap: break-word;
+}
+
+.speechBubble::before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -24px;
+    top: 74%;
+    bottom: auto;
+    border: 13px solid;
+    border-color: black transparent transparent black;
+}
+.speechBubble::after{
+    content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -20px;
+  top: 75%;
+  bottom: auto;
+  border: 12px solid;
+  border-color: white transparent transparent white;
+}
