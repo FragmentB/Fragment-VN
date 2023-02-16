@@ -6,6 +6,8 @@
 }
 
 .blackjackTitleText{
+    max-width: 600px;
+    display: flex;
     position: absolute;
     text-align: center;
     font-size: xxx-large;
@@ -155,6 +157,12 @@
     padding:2px;
     margin: 5px;
     font-size: xxx-large;
+}
+
+.icon
+{
+    max-width: 150px;
+    object-fit: contain;
 }
 
 .speechBubble{

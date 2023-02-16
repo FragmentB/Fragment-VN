@@ -48,7 +48,7 @@ const BlackjackGame = (props) =>
         if(!changeButton)
         {
             setChangeButton(true);
-            if(outfit==4)
+            if(outfit===4)
             {
                 setSpeech("I've taken off everything I can sweetheart~")
             }

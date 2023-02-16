@@ -4,7 +4,7 @@ import './Blackjack.scss'
 import BlackjackGame from "./blackjackGame";
 import BlackjackMenuItem from "./blackjackGame/BlackjackMenuItem";
 import BlackjackMenu from "./blackjackGame/Images/BlackjackMenu.png";
-
+import SourcapsIcon from "../../images/SourcapsIcon.png"
 const Blackjack = (props) => {
     const [dealer, setDealer] = useState(null);
     const girls = ['Rosalyn', 'Lila'];
@@ -19,8 +19,11 @@ const Blackjack = (props) => {
     {
         return(
             <div className="titlePage">
-                <img className="blackjackTitleImage" src={BlackjackMenu} alt= "Name" /> 
-                <div className="blackjackTitleText">Sourcaps Presents Strip Blackjack!</div>
+                <img className="blackjackTitleImage" src={BlackjackMenu} alt= "Blackjack Menu Girls" /> 
+                <div className="blackjackTitleText">
+                    <img src={SourcapsIcon}  className="icon" alt="Sourcaps" />
+                    Sourcaps Presents Strip Blackjack!
+                </div>
                 <div className="blackjackGreeting">
                     Welcome to  strip Blackjack.
                     We hope you have a fun time! 
